@@ -5,7 +5,7 @@ class Settings(BaseSettings):
     PROJECT_NAME: str = "Job Scraper API"
     VERSION: str = "1.0.0"
     DATABASE_PATH: str = "jobs.db"
-    ALLOWED_HOSTS: List[str] = ["*"]
+    ALLOWED_HOSTS: List[str] = ["https://naukrifrontend.netlify.app", "http://localhost:8000"]
     LOG_LEVEL: str = "INFO"
     
     # Scraping settings
